@@ -7,13 +7,14 @@ programa
 
 		faca 
 		{
-			escreva(num, " , ")
+			escreva(num, "², =", num*num, "\n")
 
 			num++
 		}
 		enquanto (num <=200)
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
