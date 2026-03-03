@@ -3,7 +3,7 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro valor01, antes
+		inteiro valor01, antes
 
 		escreva("Digite um valor na tela:")
 		leia(valor01)
@@ -13,6 +13,7 @@ programa
 		escreva("O antecessor de ", valor01, " é ", antes)
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
