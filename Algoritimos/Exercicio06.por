@@ -3,28 +3,17 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro total, brancos, nulos, validos
-		real pbrancos, pnulos, pvalidos
+		real salario, reajuste, novo
+
+		escreva("Salario atual: ")
+		leia(salario)
 		
-		escreva("Total de eleitores: ")
-		leia(total)
+		escreva("Percentual de reajuste: ")
+		leia(reajuste)
 		
-		escreva("Votos brancos: ")
-		leia(brancos)
+		novo = salario + (salario * reajuste / 100)
 		
-		escreva("Votos nulos: ")
-		leia(nulos)
-		
-		escreva("Votos validos: ")
-		leia(validos)
-		
-		pbrancos = brancos * 100.0 / total
-		pnulos = nulos * 100.0 / total
-		pvalidos = validos * 100.0 / total
-		
-		escreva("Percentual brancos: ", pbrancos, "%\n")
-		escreva("Percentual nulos: ", pnulos, "%\n")
-		escreva("Percentual validos: ", pvalidos, "%")
+		escreva("O novo salario é de: R$", novo)
 	}
 }
 
