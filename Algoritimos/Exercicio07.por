@@ -1,14 +1,16 @@
-real n1, n2, n3, media
+programa
+{
+	
+	funcao inicio()
+	{
+		real fabrica, final
 
-escreva("Nota 1: ")
-leia(n1)
+		escreva("Qual o custo de fabrica do veículo: ")
+		leia(fabrica)
+		
+		final = fabrica + (fabrica * 0.28) + (fabrica * 0.45)
+		
+		escreva("Custo final ao consumidor é de: R$", final)
+	}
+}
 
-escreva("Nota 2: ")
-leia(n2)
-
-escreva("Nota 3: ")
-leia(n3)
-
-media = (n1 * 2 + n2 * 3 + n3 * 5) / 10
-
-escreva("Media final: ", media)
