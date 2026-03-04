@@ -22,8 +22,8 @@ programa
 		percentual_nulos = nulos * 100.0 / total
 		percentual_validos = validos * 100.0 / total
 		
-		escreva("Percentual brancos: ", percentual_brancos, "%\n")
-		escreva("Percentual nulos: ", percentual_nulos, "%\n")
-		escreva("Percentual validos: ", percentual_validos, "%")
+		escreva("O percentual brancos é de: ", percentual_brancos, "%\n")
+		escreva("O percentual nulos é de: ", percentual_nulos, "%\n")
+		escreva("O percentual validos é de: ", percentual_validos, "%")
 	}
 }
