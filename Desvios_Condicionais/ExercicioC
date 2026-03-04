@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro quantidade
+		real total
+		
+		escreva("Informe a quantidade de maçãs compradas: ")
+		leia(quantidade)
+		
+		se (quantidade < 12) {
+		total = quantidade * 1.30
+		} senao {
+		total = quantidade * 1.00
+		}
+		
+		escreva("Total da compra: R$", total)
+	}
+}
