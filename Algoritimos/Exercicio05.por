@@ -4,7 +4,7 @@ programa
 	funcao inicio()
 	{
 		inteiro total, brancos, nulos, validos
-		real pbrancos, pnulos, pvalidos
+		real percentual_brancos, percentual_nulos, percentual_validos
 		
 		escreva("Total de eleitores: ")
 		leia(total)
@@ -18,12 +18,12 @@ programa
 		escreva("Votos validos: ")
 		leia(validos)
 		
-		pbrancos = brancos * 100.0 / total
-		pnulos = nulos * 100.0 / total
-		pvalidos = validos * 100.0 / total
+		percentual_brancos = brancos * 100.0 / total
+		percentual_nulos = nulos * 100.0 / total
+		percentual_validos = validos * 100.0 / total
 		
-		escreva("Percentual brancos: ", pbrancos, "%\n")
-		escreva("Percentual nulos: ", pnulos, "%\n")
-		escreva("Percentual validos: ", pvalidos, "%")
+		escreva("Percentual brancos: ", percentual_brancos, "%\n")
+		escreva("Percentual nulos: ", percentual_nulos, "%\n")
+		escreva("Percentual validos: ", percentual_validos, "%")
 	}
 }
