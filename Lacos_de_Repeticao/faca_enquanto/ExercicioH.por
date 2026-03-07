@@ -7,7 +7,7 @@ programa
 		
 		enquanto (verdadeiro) {
 		
-		escreva("Digite um número: ")
+		escreva("Digite um número (negativo para): ")
 		leia(numero)
 		
 		se (numero < 0) {
@@ -33,6 +33,7 @@ programa
 		
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
